@@ -55,4 +55,21 @@ body{
     max-width: 1200px;
     margin: 0 auto;
 }
-
+.header{
+    background:#e2e8d0;
+    font-style: normal;
+    color:#5E693F;
+    letter-spacing: 0.02em;
+    padding: 0.2rem 0;
+    position:fixed;
+    left: 0;
+    top: 0;
+    right: 0; /*width: 100%*/
+    z-index: 999; /*traer al frente*/
+}
+.header a{
+    color:#5E693F;
+    font-weight: 400;
+    font-size: 20px;
+    text-decoration: none;
+}

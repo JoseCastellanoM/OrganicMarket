@@ -366,7 +366,18 @@ body{
         padding: 4px 12px;
         font-size: 14px;
     }
-
+    .s-inf h2{
+        font-weight: bold;
+        font-size: 20px;
+        line-height: 24px;
+        text-shadow: 1px 1px 1px #d7dace;
+        padding: 12px 1px;
+    }
+    .s-inf p{
+        padding: 10px 10px;
+        line-height: 15px;
+        font-size: 12px;
+    }
 
 }
 
@@ -428,5 +439,18 @@ body{
         padding: 3px 30px;
         font-size: 22px;
     }
+    .s-inf h2{
+        font-weight: 550;
+        font-size: 50px;
+        line-height: 50px;
+        text-shadow: 3px 3px 3px #d7dace;
+        padding: 1rem 1rem;
+    }
+    .s-inf p{
+        padding: 10px 30px;
+        line-height: 21px;
+        font-size: 20px;
+    }
+
 
 }

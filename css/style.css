@@ -266,3 +266,21 @@ body{
     padding-top: 3px;
     line-height: 14px;
 }
+.f-b-redes ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding-top: 6px;
+}
+.f-b-redes ul li{
+    display: inline-block;
+}
+.f-b-redes ul li a{
+    display: block;
+    align-items: center;
+    padding: 0 3px;
+    font-size: 14px;
+    line-height: 16px;
+    text-decoration: none;
+}

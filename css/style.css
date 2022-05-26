@@ -308,3 +308,14 @@ body{
     border-color: #46af4b;
     color: #fff700;
 }
+
+
+/*----------------------------MÓVIL--------------------------------*/
+@media screen and (min-width: 320px) {
+
+}
+
+/*----------------------------ESCRITORIO--------------------------------*/
+@media screen and (min-width: 1024px){
+
+}

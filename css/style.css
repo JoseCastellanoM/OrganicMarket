@@ -352,6 +352,21 @@ body{
         text-shadow: 0 1px 0.5px rgba(0, 0, 0, 5);
         padding: 1rem 0;
     }
+    .download{
+        padding: 0.3rem 5px;
+    }
+    .download p{
+        font-size: 14px;
+        line-height: 15px;
+    }
+    .download ul li{
+        padding: 0 10px;
+    }
+    .download ul li a{
+        padding: 4px 12px;
+        font-size: 14px;
+    }
+
 
 }
 
@@ -398,6 +413,20 @@ body{
         letter-spacing: 0.02em;
         text-shadow: 0 1px 1px rgba(0, 0, 0, 5);
         padding: 2rem 0;
+    }
+    .download{
+        padding: 1rem 1rem;
+    }
+    .download p{
+        font-size: 20px;
+        line-height: 20px;
+    }
+    .download ul li{
+        padding: 0 60px;
+    }
+    .download ul li a{
+        padding: 3px 30px;
+        font-size: 22px;
     }
 
 }

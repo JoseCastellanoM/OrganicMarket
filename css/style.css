@@ -207,3 +207,18 @@ body{
     padding: 10px 10px;
     line-height: 20px;
 }
+.s-img{
+    display: block;
+    align-items: center;
+    padding: 1.2rem 2px;
+    margin: 0 auto;
+}
+.s-img img{
+    border-radius: 50%;
+    width: 80%;
+    height: 80%;
+    padding: 1rem 1rem;
+    border: 0.1px solid;
+    border-color: #d7dace;
+    box-shadow: 1px 3px 4px #d7dace;
+}

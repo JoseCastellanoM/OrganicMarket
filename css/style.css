@@ -378,6 +378,27 @@ body{
         line-height: 15px;
         font-size: 12px;
     }
+    .f-b-redes-cr{
+        font-size: 14px;
+        padding: 1px 3px;
+        padding-top: 16px;
+        line-height: 14px;
+    }
+    .f-b-redes-sg{
+        font-size: 12px;
+        padding: 2px 3px;
+        padding-top: 10px;
+        line-height: 12px;
+    }
+    .f-b-redes ul{
+        display:grid;
+        text-align: left;
+        padding-top: 6px;
+    }
+    .f-b-redes ul li a{
+        font-size: 12px;
+        line-height: 14px;
+    }
 
 }
 
@@ -451,6 +472,26 @@ body{
         line-height: 21px;
         font-size: 20px;
     }
-
+    .f-b-redes-cr{
+        font-size: 16px;
+        padding: 2px 3px;
+        padding-top: 20px;
+        line-height: 16px;
+    }
+    .f-b-redes-sg{
+        font-size: 14px;
+        padding: 2px 3px;
+        padding-top: 23px;
+        line-height: 14px;
+    }
+    .f-b-redes ul{
+        display: flex;
+        text-align: center;
+        padding-top: 6px;
+    }
+    .f-b-redes ul li a{
+        font-size: 14px;
+        line-height: 16px;
+    }
 
 }

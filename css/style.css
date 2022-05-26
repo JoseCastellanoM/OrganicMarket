@@ -172,3 +172,38 @@ body{
     display: block;
     padding: 3px 30px;
 }
+.segmento1{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    /*grid-column-gap: 0.5em;*/
+    align-items: center;
+}
+.segmento2{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    /*grid-column-gap: 0.5em;*/
+    align-items: center;
+}
+.s-inf{
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+}
+.s-inf h2{
+    font-weight: 550;
+    font-size: 50px;
+    line-height: 50px;
+    text-shadow: 3px 3px 3px #d7dace;
+    color: #6A6B68;
+    padding: 1rem 1rem;
+    display: block;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+.s-inf p{
+    display: block;
+    text-align: left;
+    padding: 10px 10px;
+    line-height: 20px;
+}

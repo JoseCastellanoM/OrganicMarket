@@ -92,3 +92,20 @@ body{
     letter-spacing: 0.2px;
     padding: 1.2rem 0;
 }
+.navbar ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navbar ul li{
+    display: inline-block;
+}
+.navbar ul li a{
+    display: block;
+    padding:1rem 1rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navbar ul li a:hover{
+    background: #FFFED9;
+}

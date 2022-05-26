@@ -222,3 +222,47 @@ body{
     border-color: #d7dace;
     box-shadow: 1px 3px 4px #d7dace;
 }
+.footer{
+    background: #F5F0D0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.f-b{
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    padding: 1px 1px;
+}
+.f-b-img{
+    padding: 2px 2px;
+    display: flex;
+    margin: 0 auto;
+}
+.f-b-img img{
+    max-width: 150px;
+    max-height: 140px;
+    padding: 5px 5px;
+}
+.f-b-redes{
+    padding: 1px 1px;
+    display: inline;
+    align-items: center;
+}
+.f-b-redes-cr{
+    align-items: center;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 300;
+    padding: 2px 3px;
+    padding-top: 10px;
+    line-height: 16px;
+}
+.f-b-redes-sg{
+    align-items: center;
+    text-align: left;
+    font-size: 14px;
+    font-weight: 300;
+    padding: 2px 3px;
+    padding-top: 3px;
+    line-height: 14px;
+}

@@ -407,6 +407,32 @@ body{
 .vision-p{
     text-align: justify;
 }
+.about-team h4{
+    font-weight: 600;
+    font-size: 54px;
+    line-height:54px;
+    text-shadow: 5px 2px 3px #d7dace;
+    padding: 2rem 1rem;
+    color: #5c5d5a;
+}
+.about-team ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.about-team ul li{
+    display: inline-block;
+    font-size: 18px;
+    padding:0.4rem 1rem;
+}
+.about-team ul li figure img{
+    border-radius: 20%;
+    border: 1px solid;
+    border-color: #60b660;
+    padding: 0.2rem;
+    box-shadow: 1px 2px 4px #d7dace;
+}
+
 
 /*----------------------------MÓVIL--------------------------------*/
 @media screen and (min-width: 320px) {

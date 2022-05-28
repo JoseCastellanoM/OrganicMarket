@@ -432,6 +432,30 @@ body{
     padding: 0.2rem;
     box-shadow: 1px 2px 4px #d7dace;
 }
+.about-video h4{
+    font-weight: 550;
+    font-size: 44px;
+    line-height:46px;
+    text-shadow: 3px 2px 2px #d7dace;
+    padding: 2rem 1rem;
+    padding-top: 36px;
+    color: #5c5d5a;
+}
+.video-responsive {
+    height: 0;
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    padding-top: 25px;
+    position: relative;
+    margin-bottom: 20px;
+}
+.video-responsive iframe, .video-responsive object, .video-responsive embed {
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+}
 
 
 /*----------------------------MÓVIL--------------------------------*/

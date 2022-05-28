@@ -351,7 +351,62 @@ body{
     box-shadow: 1px 3px 4px #d7dace;
     background-color: #EBFFED;
 }
+.about-vm{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px,1fr));
+    padding: 1rem 1rem;
+    gap: 20px;
+}
+.about-vm h3{
+    font-weight: 700;
+    font-size: 24px;
+    line-height:24px;
+    text-shadow: 1px 1px 1px #d7dace;
+    color: #6A6B68;
+    padding: 2rem 1rem;
+}
+.about-vm p{
+    font-weight: 300;
+    line-height: 70px;
+    font-size: 18px;
+    padding: 10px 10%;
+    margin-bottom: auto;
+}
+.about-vm-mision{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    background: #f3fde0;
+    align-items: center;
+    padding: 10px 3px;
+    gap: 10px;
+}
+.mision-h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.mision-p{
+    text-align: justify;
+}
 
+.about-vm-vision{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    background: #f3fde0;
+    align-items: center;
+    padding: 10px 3px;
+    gap:10px;
+}
+.vision-h3{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.vision-p{
+    text-align: justify;
+}
 
 /*----------------------------MÓVIL--------------------------------*/
 @media screen and (min-width: 320px) {

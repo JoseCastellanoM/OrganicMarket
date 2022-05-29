@@ -662,6 +662,35 @@ body{
         padding: 12px 10px;
     }
 
+    .plans h2{
+        font-weight: 450;
+        font-size: 22px;
+        line-height: 24px;
+        text-shadow: 1px 1px 1px #d7dace;
+        padding: 8px 6px;
+    }
+    .card-header{
+        font-size: 20px;
+        line-height: 22px;
+        padding: 20px 0;
+        font-weight: 400;
+        text-shadow: 1px 1px 2px #ffeac4;
+    }
+    .card-price p{
+        font-size: 24px;
+        line-height: 26px;
+        padding: 1px 10px;
+    }
+    .card-body p{
+        padding: 10px 14px;
+        padding-bottom: 20px;
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .card .card-body a{
+        padding: 4px 20px;
+        font-size: 14px;
+    }
 }
 
 /*----------------------------ESCRITORIO--------------------------------*/
@@ -798,5 +827,34 @@ body{
         text-shadow: 3px 2px 2px #d7dace;
         padding: 1.3rem 1rem;
     }
-
+    .plans h2{
+        font-weight: 600;
+        font-size: 48px;
+        line-height:50px;
+        text-shadow: 1px 2px 2px #d7dace;
+        padding: 2rem 1rem;
+        color: #5c5d5a;
+    }
+    .card-header{
+        font-size: 28px;
+        line-height: 29px;
+        padding: 30px 0;
+        font-weight: 500;
+        text-shadow: 1px 2px 2px #ffeac4;
+    }
+    .card-price p{
+        font-size: 30px;
+        line-height: 30px;
+        padding: 5px 10px;
+    }
+    .card-body p{
+        padding: 10px 14px;
+        padding-bottom: 20px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .card .card-body a{
+        padding: 5px 30px;
+        font-size: 20px;
+    }
 }

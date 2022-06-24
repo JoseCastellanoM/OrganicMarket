@@ -597,6 +597,32 @@ textarea{
     font-size: 20px;
 }
 
+@media(max-width:480px){
+    .form_contact{
+        width: 100%;
+    }
+    .about-inf-img{
+        width: 80%;
+    }
+    .s-img{
+        width: 80%;
+    }
+    .footer img{
+        width: 90%;
+        height: 90%;
+    }
+}
+@media(min-width:600px){
+    .video-responsive{
+        width: 80%;
+        margin: 20px auto;
+    }
+    .card-section{
+        width: 70%;
+        margin: 5px auto;
+    }
+
+}
 
 /*----------------------------MÓVIL--------------------------------*/
 @media screen and (min-width: 320px) {

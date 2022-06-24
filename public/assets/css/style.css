@@ -507,6 +507,25 @@ textarea{
     cursor: pointer;
     background: #31384a;
 }
+.btn-wsp{
+    position:fixed;
+    width:60px;
+    height:60px;
+    line-height: 63px;
+    bottom:25px;
+    right:25px;
+    background:#25d366;
+    color:#FFF;
+    border-radius:50px;
+    text-align:center;
+    font-size:35px;
+    box-shadow: 0.1px 1px 10px rgba(0,0,0,0.3);
+    z-index:100;
+    transition: all 300ms ease;
+}
+.btn-wsp:hover{
+    background:  #20ba5a;
+}
 
 /*-----------------------------------PLANS-----------------------------------------*/
 .plans{
@@ -712,7 +731,11 @@ textarea{
         text-shadow: 1px 1px 1px #d7dace;
         padding: 12px 10px;
     }
-
+    .btn-wsp{
+        width:50px;
+        height:50px;
+        line-height: 48px;
+    }
     .plans h2{
         font-weight: 450;
         font-size: 22px;
@@ -877,6 +900,11 @@ textarea{
         line-height:46px;
         text-shadow: 3px 2px 2px #d7dace;
         padding: 1.3rem 1rem;
+    }
+    .btn-wsp{
+        width:70px;
+        height:70px;
+        line-height: 68px;
     }
     .plans h2{
         font-weight: 600;

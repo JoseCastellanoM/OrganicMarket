@@ -1,4 +1,4 @@
 function sendEmail() {
     alert("¡Correo enviado!");
-    location.href = "plans.html";
+    top.location.href = "about.html";
 }

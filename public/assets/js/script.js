@@ -1,8 +1,8 @@
 function sendEmail() {
-    alert("¡Correo enviado!");
+    alert("Mail sent!!");
     top.location.href = "about.html";
 }
 function msgSubscription() {
-    alert("¡Gracias por suscribirte!");
+    alert("Thanks for your subscription!");
     top.location.href = "plans.html";
 }
